@@ -1,0 +1,124 @@
+/*Color Flamingo: #fda4ba */
+/*Color Rosa Coral: #f88379 */
+/*Color Salmon: #fdab9f */
+/*Color Lemonade: #fcbacb */
+
+body {
+    background: linear-gradient(to bottom right, #f88379, #fda4ba, #fcbacb);
+    font-family: 'Markazi Text', serif;
+}
+
+h1, h2 {
+    font-size: 4rem;
+    text-shadow: 0 2px 5px rgb(0, 0, 0, 0.3);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+header > img {
+    width: 30rem;
+    height: 15rem;
+    display: block;
+    margin: 3rem auto;
+}
+
+main, footer {
+    margin: 3rem 5%;
+}
+
+main h1 {
+    margin-top: 2rem;
+}
+
+nav {
+    width: 100%;
+}
+
+nav ul {
+    height: 6rem;
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: grid;
+    grid-template-columns: 100%;
+    justify-items: center;
+    align-items: center;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 60px;
+    text-shadow: 0 2px 5px rgb(0, 0, 0, 0.3);
+    transition: all 0.5s ease;
+}
+
+nav a:hover {
+    text-shadow: 0 4px 10px rgb(0, 0, 0, 0.7);
+}
+
+.introduction {
+    display: flex;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+article {
+    flex: 1;
+}
+
+footer img {
+    width: 20rem;
+    height: 2rem;
+}
+
+footer {
+    display: flex;
+}
+
+footer div {
+    flex: 1;
+}
+
+.article {
+    font-size: 1.8rem;
+}
+
+.card {
+    margin: 3rem 15px;
+    background-color: #ffc3d262;
+    border-radius: 10px;
+    padding: 0 30px;
+    max-height: 1020px;
+}
+
+.card:hover {
+    box-shadow: 0 6px 10px rgb(0, 0, 0, 0.4);
+    text-shadow: 0 4px 10px rgb(0, 0, 0, 0.5);
+}
+
+#ring {
+    width: 25vw;
+    height: 27vw;
+    border-radius: 7px;
+}
+
+#necklace {
+    width: 25vw;
+    height: 29vw;
+    border-radius: 7px;
+}
+
+#earrings {
+    width: 25vw;
+    border-radius: 7px;
+}
